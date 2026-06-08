@@ -23,7 +23,7 @@ const muscleGroups = [
       },
       {
         name: "Жим гантелей на лаві",
-        image: "/assets/gifs/chest/dumbbell-press.gif",
+        image: "/assets/gifs/chest/dumbbell-press.jpg",
         muscles: [{ name: "Груди", pct: 50 }, { name: "Трицепс", pct: 25 }, { name: "Плечі", pct: 25 }],
         description: "Дозволяє краще розтягнути груди та вирівняти силу рук.",
         steps: [
@@ -35,7 +35,7 @@ const muscleGroups = [
       },
       {
         name: "Віджимання на брусах",
-        image: "/assets/gifs/chest/dips.gif",
+        image: "/assets/gifs/chest/dips.jpg",
         muscles: [{ name: "Груди", pct: 40 }, { name: "Трицепс", pct: 40 }, { name: "Плечі", pct: 20 }],
         description: "Потужна вправа з власною вагою для грудей і трицепса.",
         steps: [
@@ -47,7 +47,7 @@ const muscleGroups = [
       },
       {
         name: "Кросовер у блоці",
-        image: "/assets/gifs/chest/cable-fly.gif",
+        image: "/assets/gifs/chest/cable-fly.jpg",
         muscles: [{ name: "Груди", pct: 60 }, { name: "Передні дельти", pct: 20 }, { name: "Стабілізатори", pct: 20 }],
         description: "Ізоляція грудей з хорошим відчуттям м'яза.",
         steps: [
@@ -59,7 +59,7 @@ const muscleGroups = [
       },
       {
         name: "Жим у тренажері",
-        image: "/assets/gifs/chest/machine-press.gif",
+        image: "/assets/gifs/chest/machine-press.jpg",
         muscles: [{ name: "Груди", pct: 55 }, { name: "Трицепс", pct: 25 }, { name: "Плечі", pct: 20 }],
         description: "Безпечний варіант для новачків і контролю траєкторії.",
         steps: [
@@ -80,7 +80,7 @@ const muscleGroups = [
     exercises: [
       {
         name: "Підтягування",
-        image: "/assets/gifs/back/pull-ups.gif",
+        image: "/assets/gifs/back/pull-ups.jpg",
         muscles: [{ name: "Широчайші", pct: 50 }, { name: "Біцепс", pct: 25 }, { name: "Передпліччя", pct: 25 }],
         description: "Одна з найкращих вправ для ширини спини.",
         steps: [
@@ -92,7 +92,7 @@ const muscleGroups = [
       },
       {
         name: "Тяга штанги в нахилі",
-        image: "/assets/gifs/back/barbell-row.gif",
+        image: "/assets/gifs/back/barbell-row.jpg",
         muscles: [{ name: "Спина", pct: 55 }, { name: "Задні дельти", pct: 20 }, { name: "Біцепс", pct: 25 }],
         description: "Добре розвиває товщину середини спини.",
         steps: [
@@ -104,7 +104,7 @@ const muscleGroups = [
       },
       {
         name: "Тяга верхнього блока",
-        image: "/assets/gifs/back/lat-pulldown.gif",
+        image: "/assets/gifs/back/lat-pulldown.jpg",
         muscles: [{ name: "Широчайші", pct: 55 }, { name: "Біцепс", pct: 25 }, { name: "Ромбоїди", pct: 20 }],
         description: "Контрольований варіант для розвитку широчайших.",
         steps: [
@@ -116,7 +116,7 @@ const muscleGroups = [
       },
       {
         name: "Гіперекстензія",
-        image: "/assets/gifs/back/hyperextension.gif",
+        image: "/assets/gifs/back/hyperextension.jpg",
         muscles: [{ name: "Поперек", pct: 50 }, { name: "Сідниці", pct: 30 }, { name: "Задня поверхня стегна", pct: 20 }],
         description: "Підсилює нижню частину спини й стабілізацію корпусу.",
         steps: [
@@ -128,7 +128,7 @@ const muscleGroups = [
       },
       {
         name: "Тяга гантелі однією рукою",
-        image: "/assets/gifs/back/one-arm-row.gif",
+        image: "/assets/gifs/back/one-arm-row.jpg",
         muscles: [{ name: "Широчайші", pct: 50 }, { name: "Біцепс", pct: 25 }, { name: "Середня спина", pct: 25 }],
         description: "Допомагає вирівняти дисбаланс між сторонами спини.",
         steps: [
@@ -149,7 +149,7 @@ const muscleGroups = [
     exercises: [
       {
         name: "Присідання зі штангою",
-        image: "/assets/gifs/legs/squat.gif",
+        image: "/assets/gifs/legs/squat.jpg",
         muscles: [{ name: "Квадрицепс", pct: 40 }, { name: "Сідниці", pct: 35 }, { name: "Кор", pct: 25 }],
         description: "Базова вправа для сили, маси і загальної атлетичності ніг.",
         steps: [
@@ -161,7 +161,7 @@ const muscleGroups = [
       },
       {
         name: "Жим ногами",
-        image: "/assets/gifs/legs/leg-press.gif",
+        image: "/assets/gifs/legs/leg-press.jpg",
         muscles: [{ name: "Квадрицепс", pct: 50 }, { name: "Сідниці", pct: 30 }, { name: "Задня поверхня стегна", pct: 20 }],
         description: "Добрий варіант для об'єму без великого навантаження на спину.",
         steps: [
@@ -173,7 +173,7 @@ const muscleGroups = [
       },
       {
         name: "Румунська тяга",
-        image: "/assets/gifs/legs/romanian-deadlift.gif",
+        image: "/assets/gifs/legs/romanian-deadlift.jpg",
         muscles: [{ name: "Задня поверхня стегна", pct: 45 }, { name: "Сідниці", pct: 35 }, { name: "Поперек", pct: 20 }],
         description: "Одна з найкращих вправ для задньої ланки.",
         steps: [
@@ -185,7 +185,7 @@ const muscleGroups = [
       },
       {
         name: "Випади",
-        image: "/assets/gifs/legs/lunges.gif",
+        image: "/assets/gifs/legs/lunges.jpg",
         muscles: [{ name: "Квадрицепс", pct: 40 }, { name: "Сідниці", pct: 40 }, { name: "Стабілізатори", pct: 20 }],
         description: "Розвивають баланс, силу та симетрію ніг.",
         steps: [
@@ -197,7 +197,7 @@ const muscleGroups = [
       },
       {
         name: "Згинання ніг у тренажері",
-        image: "/assets/gifs/legs/leg-curl.gif",
+        image: "/assets/gifs/legs/leg-curl.jpg",
         muscles: [{ name: "Біцепс стегна", pct: 70 }, { name: "Ікри", pct: 10 }, { name: "Сідниці", pct: 20 }],
         description: "Ізоляція задньої поверхні стегна.",
         steps: [
@@ -218,7 +218,7 @@ const muscleGroups = [
     exercises: [
       {
         name: "Підйом штанги на біцепс",
-        image: "/assets/gifs/arms/barbell-curl.gif",
+        image: "/assets/gifs/arms/barbell-curl.jpg",
         muscles: [{ name: "Біцепс", pct: 70 }, { name: "Передпліччя", pct: 20 }, { name: "Плечі", pct: 10 }],
         description: "Класична масонабірна вправа для біцепса.",
         steps: [
@@ -230,7 +230,7 @@ const muscleGroups = [
       },
       {
         name: "Молотки з гантелями",
-        image: "/assets/gifs/arms/hammer-curls.gif",
+        image: "/assets/gifs/arms/hammer-curls.jpg",
         muscles: [{ name: "Біцепс", pct: 45 }, { name: "Плечопроменевий", pct: 35 }, { name: "Передпліччя", pct: 20 }],
         description: "Підсилює об'єм руки та силу хвата.",
         steps: [
@@ -242,7 +242,7 @@ const muscleGroups = [
       },
       {
         name: "Французький жим",
-        image: "/assets/gifs/arms/skull-crusher.gif",
+        image: "/assets/gifs/arms/skull-crusher.jpg",
         muscles: [{ name: "Трицепс", pct: 75 }, { name: "Передні дельти", pct: 15 }, { name: "Передпліччя", pct: 10 }],
         description: "Сильна ізоляція трицепса.",
         steps: [
@@ -254,7 +254,7 @@ const muscleGroups = [
       },
       {
         name: "Розгинання рук на блоці",
-        image: "/assets/gifs/arms/triceps-pushdown.gif",
+        image: "/assets/gifs/arms/triceps-pushdown.jpg",
         muscles: [{ name: "Трицепс", pct: 80 }, { name: "Передпліччя", pct: 20 }],
         description: "Надійна базова вправа для трицепса.",
         steps: [
@@ -266,7 +266,7 @@ const muscleGroups = [
       },
       {
         name: "Концентрований підйом",
-        image: "/assets/gifs/arms/concentration-curl.gif",
+        image: "/assets/gifs/arms/concentration-curl.jpg",
         muscles: [{ name: "Біцепс", pct: 85 }, { name: "Передпліччя", pct: 15 }],
         description: "Максимальна ізоляція біцепса та контроль руху.",
         steps: [
@@ -287,7 +287,7 @@ const muscleGroups = [
     exercises: [
       {
         name: "Скручування",
-        image: "/assets/gifs/abs/crunch.gif",
+        image: "/assets/gifs/abs/crunch.jpg",
         muscles: [{ name: "Прямий прес", pct: 80 }, { name: "Косі", pct: 20 }],
         description: "Базова вправа для верхньої частини преса.",
         steps: [
@@ -299,7 +299,7 @@ const muscleGroups = [
       },
       {
         name: "Планка",
-        image: "/assets/gifs/abs/plank.gif",
+        image: "/assets/gifs/abs/plank.jpg",
         muscles: [{ name: "Кор", pct: 50 }, { name: "Прес", pct: 30 }, { name: "Сідниці", pct: 20 }],
         description: "Стабілізує корпус і зміцнює глибокі м'язи.",
         steps: [
@@ -311,7 +311,7 @@ const muscleGroups = [
       },
       {
         name: "Підйом ніг у висі",
-        image: "/assets/gifs/abs/hanging-leg-raise.gif",
+        image: "/assets/gifs/abs/hanging-leg-raise.jpg",
         muscles: [{ name: "Нижній прес", pct: 60 }, { name: "Косі", pct: 20 }, { name: "Згиначі стегна", pct: 20 }],
         description: "Сильна вправа для нижньої частини живота.",
         steps: [
@@ -323,7 +323,7 @@ const muscleGroups = [
       },
       {
         name: "Велосипед",
-        image: "/assets/gifs/abs/bicycle-crunch.gif",
+        image: "/assets/gifs/abs/bicycle-crunch1.jpg",
         muscles: [{ name: "Косі", pct: 45 }, { name: "Прес", pct: 55 }],
         description: "Підходить для рельєфу та активної роботи косих м'язів.",
         steps: [
@@ -335,7 +335,7 @@ const muscleGroups = [
       },
       {
         name: "Рол-аут",
-        image: "/assets/gifs/abs/ab-rollout.gif",
+        image: "/assets/gifs/abs/ab-rollout.jpg",
         muscles: [{ name: "Кор", pct: 45 }, { name: "Прес", pct: 35 }, { name: "Спина", pct: 20 }],
         description: "Складна, але дуже ефективна вправа на стабілізацію.",
         steps: [
