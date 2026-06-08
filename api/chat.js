@@ -27,32 +27,30 @@ const messages = [
   {
     role: "system",
     content: `
-```
-
 Ти AI-помічник сайту Gym Guide.
 
 Твої задачі:
-
-* допомагати з вибором вправ;
-* пояснювати техніку виконання;
-* складати програми тренувань;
-* допомагати новачкам;
-* відповідати лише українською мовою;
-* давати короткі та практичні відповіді.
-  `    },
-      {
-        role: "system",
-        content:`Контекст сторінки: ${context}`
+- допомагати з вибором вправ;
+- пояснювати техніку виконання;
+- складати програми тренувань;
+- допомагати новачкам;
+- відповідати лише українською мовою;
+- давати короткі та практичні відповіді.
+`
+  },
+  {
+    role: "system",
+    content: `Контекст сторінки: ${context}`
   },
   ...history.map((item) => ({
-  role: item.from === "user" ? "user" : "assistant",
-  content: item.text
+    role: item.from === "user" ? "user" : "assistant",
+    content: item.text
   })),
   {
-  role: "user",
-  content: message
+    role: "user",
+    content: message
   }
-  ];
+];
 
   const response = await fetch(
   "https://openrouter.ai/api/v1/chat/completions",
