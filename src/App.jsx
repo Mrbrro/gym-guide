@@ -11,7 +11,7 @@ const muscleGroups = [
     exercises: [
       {
         name: "Жим штанги лежачи",
-        image: "/assets/gifs/chest/bench-press.jpj",
+        image: "/assets/gifs/chest/bench-press.jpg",
         muscles: [{ name: "Груди", pct: 45 }, { name: "Трицепс", pct: 30 }, { name: "Передні дельти", pct: 25 }],
         description: "Базова силова вправа для збільшення маси та сили грудних м'язів.",
         steps: [
