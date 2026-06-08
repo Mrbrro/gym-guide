@@ -63,7 +63,7 @@ ${message}
           ],
           generationConfig: {
             temperature: 0.5,
-            maxOutputTokens: 500
+            maxOutputTokens: 1500
           }
         })
       }
