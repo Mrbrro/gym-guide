@@ -70,7 +70,7 @@ ${message}
     );
 
     const data = await response.json();
-
+    console.log(JSON.stringify(data, null, 2));
     const reply =
       data?.candidates?.[0]?.content?.parts?.[0]?.text ||
       "Не вдалося отримати відповідь.";
