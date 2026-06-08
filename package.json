@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.3.0",
     "lucide-react": "^0.539.0",
     "openai": "^5.12.2",
     "react": "^19.1.0",
