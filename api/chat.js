@@ -70,8 +70,11 @@ ${message}
     );
 
     const data = await response.json();
-    console.log("GEMINI RESPONSE:");
-console.log(JSON.stringify(data, null, 2));
+    if (data.error) {
+  return res.status(500).json({
+    reply: `Gemini помилка: ${data.error.message}`
+  });
+}
     console.log(JSON.stringify(data, null, 2));
     const reply =
       data?.candidates?.[0]?.content?.parts?.[0]?.text ||
