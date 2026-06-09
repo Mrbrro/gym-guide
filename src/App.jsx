@@ -546,7 +546,7 @@ function App() {
         <main className="pb-28">
           <div className="mb-5 flex items-center justify-between gap-3">
             <div>
-              <p className="text-sm text-white/55">Темна тема • Яскраві акценти • Mobile First</p>
+              <p className="text-sm text-white/55">Темна тема</p>
               <p className="mt-1 text-xs text-white/40">
                 {currentExercise ? "Сторінка вправи" : currentGroup ? `Група м'язів: ${currentGroup.name}` : "Головна сторінка"}
               </p>
@@ -582,7 +582,6 @@ function App() {
               <div className="flex items-center justify-between border-b border-white/10 p-4 sm:p-5">
                 <div>
                   <h2 className="text-lg font-semibold text-white">AI помічник</h2>
-                  <p className="text-xs text-white/45">Працює всередині сайту, без переходу на зовнішній чат</p>
                 </div>
                 <button
                   onClick={() => setChatOpen(false)}
