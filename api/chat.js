@@ -54,7 +54,7 @@ export default async function handler(req, res) {
           "Content-Type": "application/json"
         },
         body: JSON.stringify({
-          model: "openrouter/free",
+          model: "mistralai/mistral-small-3.2-24b-instruct:free",
           messages,
           temperature: 0.5,
           max_tokens: 500
