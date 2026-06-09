@@ -54,7 +54,7 @@ export default async function handler(req, res) {
           "Content-Type": "application/json"
         },
         body: JSON.stringify({
-          model: "nvidia/nemotron-3.5-content-safety:free",
+          model: "qwen/qwen3.7-plus",
           messages,
           temperature: 0.5,
           max_tokens: 500
