@@ -54,7 +54,7 @@ export default async function handler(req, res) {
           "Content-Type": "application/json"
         },
         body: JSON.stringify({
-          model: "qwen/qwen3.7-plus",
+          model: "openai/gpt-oss-120b",
           messages,
           temperature: 0.5,
           max_tokens: 500
