@@ -54,7 +54,7 @@ export default async function handler(req, res) {
           "Content-Type": "application/json"
         },
         body: JSON.stringify({
-          model: "google/gemma-4-31b:free",
+          model: "nex-agi/nex-n2-pro:free",
           messages,
           temperature: 0.5,
           max_tokens: 500
