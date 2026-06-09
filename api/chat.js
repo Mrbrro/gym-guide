@@ -54,7 +54,7 @@ export default async function handler(req, res) {
           "Content-Type": "application/json"
         },
         body: JSON.stringify({
-          model: "model: "google/gemma-3-12b-it:free",
+          model: "google/gemma-3-12b-it:free",
           messages,
           temperature: 0.5,
           max_tokens: 500
