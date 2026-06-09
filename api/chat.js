@@ -54,7 +54,7 @@ export default async function handler(req, res) {
           "Content-Type": "application/json"
         },
         body: JSON.stringify({
-          model: "nex-agi/nex-n2-pro:free",
+          model: "nvidia/nemotron-3.5-content-safety:free",
           messages,
           temperature: 0.5,
           max_tokens: 500
